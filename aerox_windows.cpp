@@ -219,7 +219,8 @@ void worker_thread_routine(int thread_id, int core_id, randomx_dataset* dataset,
 
 int main() {
     std::cout << "===========================================\n";
-    std::cout << "  AeroX Core v2.0 (Windows Native Edition) \n";
+    std::cout << "               AeroX Core v1.0             \n";
+    std::cout << "           github.com/auctionware          \n";
     std::cout << "===========================================\n";
 
     randomx_flags flags = randomx_get_flags();
